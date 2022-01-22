@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FOCUSSTART-FilesMerger:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FOCUSSTART_FilesMerger_jar</output-path>
+    <root id="archive" name="FOCUSSTART-FilesMerger.jar">
+      <element id="module-output" name="FOCUSSTART-FilesMerger" />
+    </root>
+  </artifact>
+</component>
