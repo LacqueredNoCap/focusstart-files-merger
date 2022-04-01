@@ -1,8 +1,7 @@
-# Тестовое задание FOCUSSTART январь 2022
+# :fire: Тестовое задание FOCUSSTART январь 2022 :fire:
 
-# Инструкция
-Скачать исполняемый файл:
-out\artifacts\FOCUSSTART_FilesMerger_jar\FOCUSSTART-FilesMerger.jar
+## Инструкция
+Скачать исполняемый файл `out\artifacts\FOCUSSTART_FilesMerger_jar\FOCUSSTART-FilesMerger.jar`
 
 1. режим сортировки (-a или -d), необязательный, по умолчанию сортируем по возрастанию;
 2. тип данных (-s или -i), обязательный;
@@ -10,9 +9,9 @@ out\artifacts\FOCUSSTART_FilesMerger_jar\FOCUSSTART-FilesMerger.jar
 4. остальные параметры – имена входных файлов (например, in1.txt in2.txt in3.txt), не менее одного.
 
 Запуск программы:
-java -jar FOCUSSTART-FilesMerger.jar -d -i out.txt in1.txt in2.txt in3.txt
+`java -jar FOCUSSTART-FilesMerger.jar -d -i out.txt in1.txt in2.txt in3.txt`
 
-# Особенности реализации:
+## Особенности реализации:
 1. Программа устойчива к нарушению сортировки первоначальных файлов, т.к. происходит предварительная сортировка слиянием.
    Потери данных возможны в случае нарушения типа данных в файле (например, при обработке чисел в файле
    содержится строка - данная строка будет пропущена).
@@ -23,4 +22,4 @@ java -jar FOCUSSTART-FilesMerger.jar -d -i out.txt in1.txt in2.txt in3.txt
 3. Размер chunk используется только при первоначальном разборе и сортировке (FileSplitter). 
 Слияние промежуточных файлов (FilesMerger) происходит без учета chunk.
 
-4. Java 8 (1.8 java version 1.8.0_302)
+4. Используемая верия языка Java: `1.8 java version 1.8.0_302`
